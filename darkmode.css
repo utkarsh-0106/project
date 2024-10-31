@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212; /* Dark mode background */
+    color: #EEEEEE; /* Light text color */
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background: #1E1E1E; /* Slightly lighter dark background */
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* More shadow for contrast */
+}
+
+h1 {
+    text-align: center;
+    color: #00ADB5; /* Neon teal */
+    margin-bottom: 20px;
+    font-size: 2.5em;
+    text-shadow: 1px 1px 10px rgba(0, 173, 181, 0.7); /* Neon glow */
+}
+
+.form-section {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #FF5722; /* Neon orange for labels */
+}
+
+input, select, button {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    background-color: #333333; /* Dark input background */
+    color: #EEEEEE; /* Light text */
+    border: 1px solid #555555; /* Dark border */
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+input:focus, select:focus {
+    border-color: #00ADB5; /* Neon teal focus border */
+    box-shadow: 0 0 5px rgba(0, 173, 181, 0.5); /* Neon glow */
+}
+
+button {
+    background-color: #00ADB5; /* Neon teal button */
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 1.1em;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #FF5722; /* Neon orange on hover */
+}
+
+.recommendations {
+    margin-top: 20px;
+    padding: 15px;
+    background: #1E1E1E; /* Same dark background */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Darker shadow */
+}
+
+.recommendations h2 {
+    margin-top: 0;
+    color: #00ADB5; /* Neon teal */
+}
+
+.recommendations ul {
+    list-style-type: none; /* Remove default list style */
+    padding: 0;
+}
+
+.recommendations li {
+    background: #333333; /* Darker background for list items */
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    transition: background 0.3s;
+}
+
+.recommendations li:hover {
+    background: #FF5722; /* Neon orange on hover */
+}
